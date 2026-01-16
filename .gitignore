@@ -1,0 +1,127 @@
+# ============================================
+# 100xDev Bootcamp - Git Ignore File
+# ============================================
+
+# Operating System Files
+# ----------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor Files
+# ------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js & JavaScript
+# ---------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+dist/
+build/
+.next/
+out/
+.cache/
+.parcel-cache/
+.nuxt/
+.vuepress/dist
+.serverless/
+
+# Package Manager Lock Files (Optional - Uncomment if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Environment Variables
+# ----------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Logs & Debugging
+# ----------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing & Coverage
+# ------------------
+coverage/
+.nyc_output/
+*.lcov
+.jest-cache/
+
+# Production Builds
+# -----------------
+dist/
+build/
+public/dist/
+
+# Temporary Files
+# ---------------
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Database Files
+# --------------
+*.sqlite
+*.sqlite3
+*.db
+
+# Python (for any Python scripts)
+# --------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Java (for any Java projects)
+# -----------------------------
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+
+# Miscellaneous
+# -------------
+*.bak
+*.swp
+*.old
+.history/
