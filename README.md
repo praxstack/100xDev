@@ -70,7 +70,7 @@ This repository documents my **intensive learning journey** through the 100xDev 
   </tr>
   <tr>
     <td>💻 <b>DSA Bootcamp</b></td>
-    <td><img src="https://img.shields.io/badge/-Not%20Enrolled-red?style=flat-square" /></td>
+    <td><img src="https://img.shields.io/badge/-In%20Progress-yellow?style=flat-square" /></td>
     <td>Practicing independently via CodeCrafters + Educative.io</td>
   </tr>
 </table>
@@ -85,7 +85,7 @@ This repository documents my **intensive learning journey** through the 100xDev 
 ├── _Templates/                  # Standardized Markdown templates
 ├── scaffold.sh                  # Automation script to create new folders
 │
-├── 100xdev-devops-webdev/       # Web Development + DevOps Bootcamp
+├── 🌐 Web Dev & DevOps Bootcamp/
 │   ├── 00-Materials/            # Instructor-provided prompts/resources
 │   │   └── assignments/
 │   └── 2026-01/                 # Month folders (YYYY-MM)
@@ -96,12 +96,15 @@ This repository documents my **intensive learning journey** through the 100xDev 
 │       ├── 04-Self-Study/
 │       └── 99-Inbox/            # Quick dump, sort later
 │
-├── 100xdev-ai-ml/               # AI & ML track (Renamed for compatibility)
+├── 🤖 AI & Machine Learning Bootcamp/
 │   ├── 00-Materials/
 │   └── 2026-01/
 │
-├── 100xdev-web3/                # Web3 track
+├── ⛓️ Web3 Bootcamp/
 │   ├── 00-Materials/
+│   └── 2026-01/
+│
+├── 💻 DSA Bootcamp/
 │   └── 2026-01/
 │
 └── README.md                # You are here!
@@ -122,14 +125,20 @@ To maintain consistency, use the `scaffold.sh` script to create new entries:
 ./scaffold.sh project ai-ml "Sentiment Analysis API"
 
 # Create a self-study entry
-./scaffold.sh study web3 "Solidity Basics"
+./scaffold.sh study dsa "Graphs and Trees"
 ```
 
 Notes:
-- Courses: `ai-ml`, `devops` (or `devops-webdev`), `web3`
+- Courses: `ai-ml`, `devops` (or `devops-webdev`), `web3`, `dsa`
 - The script creates the month folder automatically and fills template placeholders (topic/date/course).
 - It will not overwrite an existing entry (it exits if the target folder already exists).
 - Backdate: `SCAFFOLD_DATE=2026-01-16 ./scaffold.sh class devops "Orientation"`
+
+You can continue by creating your next entry:
+
+```bash
+./scaffold.sh class devops "Containerization Basics"
+```
 
 > **Note**: Directory structure will evolve as I progress through different bootcamps.
 

@@ -7,7 +7,7 @@ usage() {
 100xDev Scaffold Helper
 
 Usage:
-  ./scaffold.sh [class|assignment|project|study] [ai-ml|devops|devops-webdev|web3] "Name"
+  ./scaffold.sh [class|assignment|project|study] [ai-ml|devops|web3|dsa] "Name"
 
 Optional:
   Set `SCAFFOLD_DATE=YYYY-MM-DD` to backdate an entry.
@@ -78,16 +78,20 @@ render_template() {
 # Convert course name to folder + label
 case "$COURSE" in
   ai-ml|aiml)
-    DIR="100xdev-ai-ml"
+    DIR="🤖 AI & Machine Learning Bootcamp"
     COURSE_LABEL="AI & ML"
     ;;
   devops|devops-webdev)
-    DIR="100xdev-devops-webdev"
+    DIR="🌐 Web Dev & DevOps Bootcamp"
     COURSE_LABEL="DevOps + WebDev"
     ;;
   web3)
-    DIR="100xdev-web3"
+    DIR="⛓️ Web3 Bootcamp"
     COURSE_LABEL="Web3"
+    ;;
+  dsa)
+    DIR="💻 DSA Bootcamp"
+    COURSE_LABEL="DSA"
     ;;
   *)
     echo "Error: Unknown course '$COURSE'." >&2

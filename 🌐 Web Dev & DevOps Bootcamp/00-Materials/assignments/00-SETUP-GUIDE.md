@@ -78,7 +78,7 @@ brew services start postgresql@16
 psql booking_system
 
 # Or use the assignment markdown file
-# dev-devops-webdev/assignments/02-sql-booking-system.md
+# ./02-sql-booking-system.md
 ```
 
 **What you'll do:**
@@ -94,12 +94,13 @@ psql booking_system
 **Project initialization needed:**
 
 ```bash
-# Create project directory
-cd dev-devops-webdev/assignments
-mkdir contest-platform
-cd contest-platform
+# If you're following this repo structure, start by scaffolding the assignment:
+./scaffold.sh assignment devops "Contest Platform Backend"
 
-# Initialize npm project
+# Then work inside the created assignment folder's ./sandbox directory.
+# (Tip: the scaffold command prints the exact path it created.)
+
+# Initialize npm project (inside sandbox/)
 npm init -y
 
 # Install dependencies
