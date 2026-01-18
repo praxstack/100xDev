@@ -82,18 +82,54 @@ This repository documents my **intensive learning journey** through the 100xDev 
 ```
 100xDev/
 │
-├── dev-devops-webdev/       # Web Development + DevOps Bootcamp
-│   ├── week-1/
-│   │   └── class-1/         # Current: Week 1, Class 1
-│   ├── week-2/
-│   └── projects/            # Capstone projects from this bootcamp
+├── _Templates/                  # Standardized Markdown templates
+├── scaffold.sh                  # Automation script to create new folders
 │
-├── ai-ml-bootcamp/          # Coming Soon: AI & ML Bootcamp
+├── 100xdev-devops-webdev/       # Web Development + DevOps Bootcamp
+│   ├── 00-Materials/            # Instructor-provided prompts/resources
+│   │   └── assignments/
+│   └── 2026-01/                 # Month folders (YYYY-MM)
+│       ├── 01-Classes/          # Class transcripts/notes/doubts
+│       │   └── YYYY-MM-DD-topic/
+│       ├── 02-Assignments/      # Your solutions + sandbox envs
+│       ├── 03-Projects/
+│       ├── 04-Self-Study/
+│       └── 99-Inbox/            # Quick dump, sort later
 │
-├── web3-bootcamp/           # Coming Soon: Web3 Bootcamp
+├── 100xdev-ai-ml/               # AI & ML track (Renamed for compatibility)
+│   ├── 00-Materials/
+│   └── 2026-01/
+│
+├── 100xdev-web3/                # Web3 track
+│   ├── 00-Materials/
+│   └── 2026-01/
 │
 └── README.md                # You are here!
 ```
+
+### 🚀 Getting Started with this Structure
+
+To maintain consistency, use the `scaffold.sh` script to create new entries:
+
+```bash
+# Create a new class entry
+./scaffold.sh class ai-ml "Neural Networks"
+
+# Create a new assignment entry
+./scaffold.sh assignment devops "Dockerizing Node"
+
+# Create a new project entry
+./scaffold.sh project ai-ml "Sentiment Analysis API"
+
+# Create a self-study entry
+./scaffold.sh study web3 "Solidity Basics"
+```
+
+Notes:
+- Courses: `ai-ml`, `devops` (or `devops-webdev`), `web3`
+- The script creates the month folder automatically and fills template placeholders (topic/date/course).
+- It will not overwrite an existing entry (it exits if the target folder already exists).
+- Backdate: `SCAFFOLD_DATE=2026-01-16 ./scaffold.sh class devops "Orientation"`
 
 > **Note**: Directory structure will evolve as I progress through different bootcamps.
 
@@ -128,7 +164,7 @@ I follow the **Top-Down Learning + Recursive Gap-Filling** methodology (inspired
 | Week 2 | - | ⚪ Not Started | - |
 | Week 3 | - | ⚪ Not Started | - |
 
-> **Last Updated**: January 16, 2026
+> **Last Updated**: January 18, 2026
 
 ---
 
@@ -171,6 +207,29 @@ Currently on a **6-9 month focused learning sprint** to master:
 - 🎯 AI/ML engineering
 - 🎯 Web3 & blockchain development
 
+## 🔗 Important Resources
+
+### 📚 Course Portals
+- **Course Dashboard:** [harkirat.classx.co.in](https://harkirat.classx.co.in/new-courses) | [Content Link](https://harkirat.classx.co.in/new-courses/24/content)
+- **100xDevs App:** [app.100xdevs.com](https://app.100xdevs.com/)
+- **Projects Platform:** [projects.100xdev.com](https://projects.100xdev.com/)
+
+### 🗓️ Schedule & Materials
+- **Calendar (Luma):** [100xSchool Events](https://luma.com/100xschool)
+- **Slides (Notion):** [Bootcamp Slides](https://100xschool.notion.site/100xSchool-Live-Bootcamp-Slides-2e2ffffa33e580c297a2fed689328db2)
+- **Slides (Alt):** [slides.kirat.dev](https://slides.kirat.dev/)
+
+### 🆘 Support & TAs
+**Email:** `gethelp.100xdevs@gmail.com`
+
+**Teaching Assistants (Cohort 4.0):**
+*   **Web Dev:** @Harry Potter, @Sumana
+*   **AI & ML:** @Spass, @Yash
+*   **DSA:** @Prabhdeep
+*   **Web3:** @Tarun, @Youval
+
+> **Rules:** Do not DM TAs. Post in relevant channels. Tag specific roles. Voice calls are optional for TAs.
+
 ---
 
 ## 🔗 Connect With Me
@@ -198,6 +257,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Built with 💙 by [Prax Lannister](https://github.com/PrakharMNNIT)**
 
-*Last Updated: January 2026*
+*Last Updated: January 18, 2026*
 
 </div>
