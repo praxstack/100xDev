@@ -1,0 +1,12 @@
+li {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  background-color: #8cacea;
+  margin: 8px;
+}
+ul {
+  display: inline;
+  list-style: none;
+  border: 2px solid violet;
+}

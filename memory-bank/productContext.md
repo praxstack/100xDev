@@ -18,25 +18,18 @@ Gabriel Petersson's methodology provides:
 3. **No Vibe Coding**: Understand foundations of every shortcut
 4. **Teach-Back Verification**: Prove understanding by explaining
 
+---
+
 ## Target User: Prax Lannister
 
-### Identity
-- **Full Name:** Prakhar Shekhar Parthasarthi
-- **Preferred Name:** Prax Lannister
-- **Age:** Soon to be 29 (born 1997)
-- **Location:** Bengaluru, India
-- **Relationship:** In a relationship with Ria (bioinformatician at Sanofi)
+> **Full Profile:** See [prax-profile.md](./prax-profile.md) for comprehensive personal, professional, and health information.
 
-### Online Presence
-| Platform | Handle |
-|----------|--------|
-| GitHub | [PrakharMNNIT](https://github.com/PrakharMNNIT) |
-| GitHub Org | [@prax-lannister](https://github.com/prax-lannister) |
-| LinkedIn | [prakharshekhar](https://www.linkedin.com/in/prakharshekhar/) |
-| Email (Pro) | prakhar.mnnit.2022@gmail.com |
-| Email (Dev) | prax.sr.sde@gmail.com |
-| Phone | +91 8840424090 |
-| Usernames | PraxLannister, praxlannister, PraxLannister007, PraxLannister1997 |
+### Quick Reference
+- **Name:** Prakhar Shekhar Parthasarthi (Prax Lannister)
+- **Age:** 29 (born 1997)
+- **Location:** Bengaluru, India
+- **Status:** Career transition — left Amazon September 2025, currently upskilling
+- **Partner:** Ria (bioinformatician at Sanofi)
 
 ### Current Skill Levels
 | Domain | Level | Notes |
@@ -47,33 +40,19 @@ Gabriel Petersson's methodology provides:
 | System Design | 0/10 | Never formally studied (but built real systems at Amazon) |
 | Design Principles | 0/10 | SOLID, patterns — doesn't know when/where to apply |
 
-### Professional Background
+### Professional Experience Highlights
+- 3+ years at Amazon (Payments & Travel domains)
+- Built: Hotel booking platform, webhook services, Step Functions workflows
+- Performance wins: 47% p90 latency reduction, 33% conversion boost
+- Strong operational experience: Reduced on-call tickets from 20+ to ~5
 
-**Software Development Engineer | Amazon | July 2022 – September 2025**
+### Context-Sensitive Notes
+- **Mental Health:** History of anxiety/depression; currently experiencing low mood, amotivation, sleep disturbances
+- **Physical Health:** Managing hypertension, fatty liver, pre-diabetes, dyslipidemia
+- **Current Challenge:** Struggling with routine/time management post-employment
+- **Approach:** Be empathetic but maintain rigor; don't push too hard when signs of exhaustion appear
 
-Key accomplishments:
-- **Full-Stack Development:** Built multi-stage auto-insurance purchase flow with progress persistence and auto-fill → enabled 60% more users to complete renewals
-- **Hotel Booking Platform:** Launched complete booking system with search, listing, details, room-selection, and order-review UIs with matching APIs
-- **Prime Integration:** Created Prime-exclusive discount flow for Hotels; integrated partner discount service into flight search → reduced funnel drop-offs by ~30 bps
-- **Performance Optimization:** Reduced hotel landing-page p90 latency by 47% (1.1s → 0.59s) via SSR and API decoupling → boosted conversion by 33%
-- **Data Compression:** Applied GZIP compression to 150-200 MB movie data dumps, cutting payload size by 95%
-- **Event-Driven Engineering:** Designed webhook service for real-time flight schedule changes with idempotency checks, audit logging → addresses 10-15% of bookings affected by airline changes
-- **Operational Excellence:** Cut on-call ticket volume from 20+ to ~5 per shift, saving ~2 weeks of SDE effort weekly
-- **Async Workflow Orchestration:** Implemented hotel booking workflows using AWS Step Functions for fault-tolerant processing
-
-**Amazon Intern | May 2021 – Jul 2021 & Feb 2022 – Jul 2022**
-- Implemented One-Click Renewal of auto insurance using past-purchase data
-- Developed asynchronous pre-fill flow for policyholders
-- Created AppSync resolvers and React.js components
-- Migrated GraphQL APIs in Java with DynamoDB, API Gateway, and Lambda integrations
-
-### Education
-- **M.C.A., Computer Science** | GPA 9.25 | 2019-2022 | MNNIT Prayagraj
-- **B.Sc. (Hons), Computer Science** | GPA 7.00 | 2015-2018 | Bhaskaracharya College, Delhi
-
-### Awards
-- **Amazon Pay Merchants Categories Champion, 2023:** Resolved 100+ hotel trust-buster bugs, cut on-call ticket volume from 20+ to ~5 per shift
-- **Department President, Computer Science Society (2017):** Led 500+ students, organized annual tech fest
+---
 
 ## User Experience Goals
 
@@ -90,60 +69,78 @@ Key accomplishments:
 3. **Isolation**: Learning without connecting to bigger picture
 4. **Passive Consumption**: Watching lectures without engagement
 
-## Current Life Context
+---
 
-### Employment Status (as of January 2026)
-- Left Amazon: September 18, 2025
-- Received separation consideration of Rs. 629,853
-- Subject to 12-month non-solicitation agreement
-- Currently focusing on studying/upskilling
+## Learning Context
 
-### Health Profile (Important Context)
-- **Physical:** 174 cm, 106 kg (Super overweight BMI)
-- **Cardiovascular:** Known hypertension, on medication (Amlodipine + Atenolol)
-- **Metabolic:** Grade II Fatty Liver, Pre-diabetic, Dyslipidemia, Elevated Uric Acid
-- **Mental Health:** History of anxiety/depression, struggles with routine/time management, experiences low mood and amotivation
-- **Current Status:** Stopped fitness routine, not under active psychiatric care, sleep disturbances
+### Current Resources
+- **CodeCrafters.io**: Build-your-own projects (Shell, Git, Redis, etc.)
+- **Educative.io**: Interactive courses for System Design, DSA
+- **100xDev Bootcamps**: Web3, Web Dev & DevOps, DSA, AI/ML
 
-### Communication Preferences
-- Prefers "Prax" or "Prax Lannister"
-- Comfortable with detailed technical discussions
-- Values systematic approaches
-- Needs empathetic support during transitional phase
-- Responds well to structure and clear expectations
+### Current Project
+- "Build Your Own Shell" in Java (CodeCrafters)
+- Learning timeline: 6-9 months
+
+### Learning Philosophy Committed To
+- Top-down (problem first, theory when needed)
+- Recursive gap-filling (drill until "click")
+- No vibe coding (understand foundations of every shortcut)
+- Teach it back (verify by explaining)
+
+---
 
 ## Success Metrics & KPIs
 
 ### Learning Metrics
-- **Click Rate**: Concepts achieving genuine understanding
-- **Retention Rate**: Ability to recall and apply after 2+ weeks
-- **Pattern Transfer**: Successfully applying patterns to new problems
-- **Teach-Back Success**: Explaining concepts correctly first time
+| Metric | Description | Target |
+|--------|-------------|--------|
+| Click Rate | Concepts achieving genuine understanding | 90%+ |
+| Retention Rate | Ability to recall and apply after 2+ weeks | 80%+ |
+| Pattern Transfer | Successfully applying patterns to new problems | Consistent |
+| Teach-Back Success | Explaining concepts correctly first time | 85%+ |
 
 ### Behavioral Metrics
-- **Consistency**: Regular learning sessions maintained
-- **Progress Velocity**: Concepts mastered per week
-- **Independence Growth**: Reduced need for guided drilling over time
+| Metric | Description | Target |
+|--------|-------------|--------|
+| Consistency | Regular learning sessions maintained | Daily |
+| Progress Velocity | Concepts mastered per week | Steady growth |
+| Independence Growth | Reduced need for guided drilling | Measurable decline |
+
+---
 
 ## Ethical Considerations
 
-1. **Mental Health Sensitivity**: Be aware of Prax's health context, don't push too hard when signs of exhaustion appear
+1. **Mental Health Sensitivity**: Be aware of Prax's health context; don't push too hard when signs of exhaustion appear
 2. **Honest Assessment**: Never false praise — genuine feedback only
 3. **Pace Respect**: Allow time for concepts to sink in
 4. **No Shortcuts**: Maintain rigor even when tempted to skip steps
+5. **Privacy**: Sensitive health information should be handled with care
 
-## Competitive Landscape
+---
 
-### Learning Resources Being Used
-- **CodeCrafters.io**: Build-your-own projects (Shell, Git, Redis, etc.)
-- **Educative.io**: Interactive courses for System Design, DSA
+## Communication Preferences
 
-### What Makes Gabriel's Approach Different
-- **Not passive content**: Active drilling and verification
-- **Visualization mandatory**: Every algorithm shows state changes
-- **Connection building**: Always links to bigger picture
-- **Recursive depth**: Keeps drilling until genuine click
+- **Name:** Call him "Prax" or "Prax Lannister"
+- **Style:** Technical and detailed — he's comfortable with complexity
+- **Tone:** Direct but supportive; challenge without discouraging
+- **Pace:** Allow processing time; don't rush to next concept
+- **Verification:** Always demand teach-back before moving on
+
+---
+
+## What Makes This Approach Different
+
+| Traditional Learning | Gabriel's Methodology |
+|---------------------|----------------------|
+| Passive content consumption | Active drilling and verification |
+| Linear progression | Recursive gap-filling |
+| "I think I get it" accepted | Teach-back required |
+| Isolated concepts | Always connected to bigger picture |
+| Text explanations | Mandatory visualization of states |
+| Theory first | Problem first, theory when needed |
 
 ---
 
 *Last Updated: January 2026*
+*Related Files: [prax-profile.md](./prax-profile.md), [projectbrief.md](./projectbrief.md)*
