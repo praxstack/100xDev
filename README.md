@@ -2,7 +2,7 @@
 
 # 🚀 100xDev Bootcamp Journey
 
-[![GitHub](https://img.shields.io/badge/GitHub-PrakharMNNIT-181717?style=for-the-badge&logo=github)](https://github.com/PrakharMNNIT/100xDev)
+[![GitHub](https://img.shields.io/badge/GitHub-praxstack-181717?style=for-the-badge&logo=github)](https://github.com/praxstack/100xDev)
 [![GitLab](https://img.shields.io/badge/GitLab-PrakharMNNIT-FC6D26?style=for-the-badge&logo=gitlab)](https://gitlab.com/PrakharMNNIT/100xDev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-prakharshekhar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/prakharshekhar/)
 
@@ -245,7 +245,7 @@ Currently on a **6-9 month focused learning sprint** to master:
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/-@PrakharMNNIT-181717?style=for-the-badge&logo=github)](https://github.com/PrakharMNNIT)
+[![GitHub](https://img.shields.io/badge/-@praxstack-181717?style=for-the-badge&logo=github)](https://github.com/praxstack)
 [![GitLab](https://img.shields.io/badge/-@PrakharMNNIT-FC6D26?style=for-the-badge&logo=gitlab)](https://gitlab.com/PrakharMNNIT)
 [![LinkedIn](https://img.shields.io/badge/-prakharshekhar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/prakharshekhar/)
 [![Email](https://img.shields.io/badge/-prax.sr.sde@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prax.sr.sde@gmail.com)
@@ -264,7 +264,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### ⭐ Star this repo if you're also on a learning journey!
 
-**Built with 💙 by [Prax Lannister](https://github.com/PrakharMNNIT)**
+**Built with 💙 by [Prax Lannister](https://github.com/praxstack)**
 
 *Last Updated: January 18, 2026*
 
